@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="actual_date" label="Actual Date" language="en" table="x_574429_library_m_response_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>actual_date</element>
+            <help/>
+            <hint/>
+            <label>Actual Date</label>
+            <language>en</language>
+            <name>x_574429_library_m_response_table</name>
+            <plural>Actual Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-08 07:38:28</sys_created_on>
+            <sys_id>c70de14c2f522010ea6afd1df699b6ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Actual Date</sys_name>
+            <sys_package display_value="Library Management System" source="x_574429_library_m">801b29c82f522010ea6afd1df699b63b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Library Management System">801b29c82f522010ea6afd1df699b63b</sys_scope>
+            <sys_update_name>sys_documentation_x_574429_library_m_response_table_actual_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-08 07:38:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

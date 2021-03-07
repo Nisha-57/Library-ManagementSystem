@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>inserting_data</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Inserting Data</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-05 12:04:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6eb95f8c2f362010ea6afd1df699b655</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inserting Data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management System" source="x_574429_library_m">801b29c82f522010ea6afd1df699b63b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management System">801b29c82f522010ea6afd1df699b63b</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_6eb95f8c2f362010ea6afd1df699b655</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-05 12:04:42</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=6eb95f8c2f362010ea6afd1df699b655"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6eb95f8c2f362010ea6afd1df699b655"/>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_574429_library_m_request_table">x_574429_library_m_request_table</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>REQ</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 07:33:34</sys_created_on>
+        <sys_id>0febe50c2f522010ea6afd1df699b67d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>REQ</sys_name>
+        <sys_package display_value="Library Management System" source="x_574429_library_m">801b29c82f522010ea6afd1df699b63b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management System">801b29c82f522010ea6afd1df699b63b</sys_scope>
+        <sys_update_name>sys_number_0febe50c2f522010ea6afd1df699b67d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 07:33:34</sys_updated_on>
+    </sys_number>
+</record_update>

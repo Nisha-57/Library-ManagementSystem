@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Request Table" max_length="40" name="x_574429_library_m_request_table" sizeclass="7" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Book Name" max_length="40" name="book_name" type="string"/>
+        <element label="Book No" max_length="40" name="book_no" type="integer"/>
+        <element label="Customer Id" mandatory="true" max_length="40" name="customer_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer Name" max_length="40" name="customer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email Id" max_length="40" name="email_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Extending Date" mandatory="true" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Actual Date" mandatory="true" max_length="40" name="u_glide_date_2" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Approval Status" max_length="40" name="u_string_3" type="string"/>
+    </element>
+</database>

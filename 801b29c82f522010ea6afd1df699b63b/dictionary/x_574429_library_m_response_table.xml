@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Response Table" max_length="40" name="x_574429_library_m_response_table" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Actual Date" max_length="40" name="actual_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Extended Date" max_length="40" name="extended_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status" max_length="40" name="status" type="string"/>
+        <element label="Duration" max_length="40" name="u_integer_2" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested by" max_length="40" name="u_string_1" type="string"/>
+    </element>
+</database>

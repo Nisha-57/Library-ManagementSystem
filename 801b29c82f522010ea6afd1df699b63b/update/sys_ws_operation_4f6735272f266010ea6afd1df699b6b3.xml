@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>Response</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+	var sysID= request.pathParams.sysid;
+	var gr = new GlideRecord('x_574429_library_m_request_table');
+	var result={};
+	var body=[];
+	gr.addQuery('sys_id',sysID);
+	//gr.addQuery('gr.u_glide_date_2','<','gr.u_glide_date_1');
+	gr.query();
+	if(gr.next())
+		{
+			result.customer_id=gr.customer_id;
+			result.customer_name=gr.customer_name;
+			result.actual_date=gr.u_glide_date_2;
+			result.extending_date=gr.u_glide_date_1;
+			if(gr.u_glide_date_2 <= gr.u_glide_date_1)
+				{
+					result.u_string_3="Accepted";
+				}
+			else
+				{
+					result.u_string_3="Rejected";
+				}
+		body.push(result);
+		}
+	response.setBody(body);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_574429_library_m/requesting_data/Response/{sysid}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/Response/{sysid}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-03 15:52:27</sys_created_on>
+        <sys_id>4f6735272f266010ea6afd1df699b6b3</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Response</sys_name>
+        <sys_package display_value="Library Management System" source="x_574429_library_m">801b29c82f522010ea6afd1df699b63b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management System">801b29c82f522010ea6afd1df699b63b</sys_scope>
+        <sys_update_name>sys_ws_operation_4f6735272f266010ea6afd1df699b6b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-04 07:37:36</sys_updated_on>
+        <web_service_definition display_value="Requesting Data">ac13c0132f662010ea6afd1df699b68e</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

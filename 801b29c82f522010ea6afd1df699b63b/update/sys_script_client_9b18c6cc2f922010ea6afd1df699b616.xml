@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_glide_date_2</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Requesting</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Setting approval status field to approved
+	g_form.setValue('u_approval status',"Approved");
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 09:39:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b18c6cc2f922010ea6afd1df699b616</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requesting</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management System" source="x_574429_library_m">801b29c82f522010ea6afd1df699b63b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management System">801b29c82f522010ea6afd1df699b63b</sys_scope>
+        <sys_update_name>sys_script_client_9b18c6cc2f922010ea6afd1df699b616</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 09:39:16</sys_updated_on>
+        <table>x_574429_library_m_request_table</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
